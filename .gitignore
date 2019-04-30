@@ -1,0 +1,2 @@
+# Do not commit unity app cause it is huge
+*.app
