@@ -1,0 +1,19 @@
+name: autonomous-car-env
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.5
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - jupyter
+    - opencv3
+    - pillow
+    - scikit-learn
+    - imageio
+    - pip:
+        - moviepy
+        - tensorflow==1.13.1
+        - keras==2.2
